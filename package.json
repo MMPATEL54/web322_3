@@ -1,0 +1,14 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "Web development assignment 2",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+    "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
